@@ -1,14 +1,7 @@
-from enum import IntEnum
+import math as m
+from diniso1328 import FlankToleranceClass
 
-class FlankToleranceClass(IntEnum):
-    ISO1 = 1
-    ISO2 = 2
-    ISO3 = 3
-    ISO4 = 4
-    ISO5 = 5
-    ISO6 = 6
-    ISO7 = 7
-    ISO8 = 8
-    ISO9 = 9
-    ISO10 = 10
-    ISO11 = 11
+
+def f_Hbeta(d : float, b : float, A : FlankToleranceClass):
+    return (0.07 * m.sqrt(d) + 0.45 * m.sqrt(b) + 4) * m.pow(m.sqrt(2), A - 5)
+
