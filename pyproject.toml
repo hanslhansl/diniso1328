@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diniso1328"
+version = "0.1.0"
+description = "Implementation of DIN ISO 1328 - Cylindrical gears – ISO system of flank tolerance classification"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+authors = [{name = "hanslhansl", email = "p4u1_1@posteo.at"}]
+dependencies = [
+]
+
+[tool.setuptools]
+packages = ["diniso1328"]
