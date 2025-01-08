@@ -8,4 +8,4 @@ Currently implemented are
 Note: This project cannot be considered a substitute for the official standard. Likewise, I cannot guarantee the completeness and accuracy of the calculations.
 Installing
 
-pip install git+https://github.com/hanslhansl/diniso1328.git
+`pip install git+https://github.com/hanslhansl/diniso1328.git`
