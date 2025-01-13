@@ -16,5 +16,6 @@ class FlankToleranceClass(IntEnum):
     ISO9 = 9
     ISO10 = 10
     ISO11 = 11
-
-from . import diniso1328_1
+    
+from .diniso1328_1 import *
+from .diniso1328_2 import *
